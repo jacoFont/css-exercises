@@ -1,4 +1,7 @@
 .header  {
+  padding:8px;
+  display:flex;
+  justify-content: space-between;
   font-family: monospace;
   background: papayawhip;
 }
@@ -12,6 +15,11 @@
 }
 
 ul {
+  padding:8px;
+  display:flex;
+  gap:8px;
+  justify-content: flex-start;
+  flex-direction: row;
   /* this removes the dots on the list items*/
   list-style-type: none;
 }
